@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    
+}
+
+.head-part{
+    width: 100%;
+    height: 320px;
+    background-image: url("./assets/nav-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.support{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.support ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.support ul li{
+    list-style: none;
+    
+}
+
+.text-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-block: 20px;
+}
+
+.text-part h2{
+    font-size: 30px;
+font-weight: 700;
+}
+
+.text-part h4{
+    font-size: 20px;
+font-weight: 500;
+}
+
+
+.line-box{
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.line-box input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-right: 1px solid grey;
+}
+
+#date{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-right: 1px solid grey;
+
+
+}
+
+#Space{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-right: 1px solid grey;
+}
+
+#search-btn{
+    width: 220px;
+    height: 50px;
+    background-color: rgb(109, 214, 163);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.city-bar{
+    width: 100%;
+    height: auto;
+    
+}
+
+.city-bar ul{
+    color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.city-bar li{
+    list-style: none;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    background-color: rgb(235, 231, 231);
+
+}
+
+.blue-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box{
+    width: 85%;
+    height: 80px;
+    background-image: url("./login_discount_searchpage_banner.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+padding-inline: 40px;}
+
+
+.blue-box h5{
+    font-size: 18px;
+}
+
+.blue-box h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#lg-btn{
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    border: none;
+    border: 1px solid snow;
+    color: white;
+}
+
+.video-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 40px;
+}
+ 
+.content-part{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-block: 50px;
+
+
+}
+
+.content-part h1{
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.content-part p{
+    color: #4a4a4a;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.three-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.itsy-text ul{
+    list-style: none;
+    color: #606161;
+    padding-top: 20px;
+}
+
+.itsy-text ul li{
+    padding-top: 10px;
+}
+
+.itsy-text ul li{
+    padding-top: 10px;
+}
+.itsy-text ul li h4{
+    color: black;
+    font-size: 20px;
+}
+
+.trend-text ul{
+    list-style: none;
+    color: #606161;
+    padding-top: 20px;
+
+}
+
+.trend-text ul li{
+    padding-top: 10px;
+}
+
+.trend-text ul li{
+    padding-top: 10px;
+}
+.trend-text ul li h4{
+    color: black;
+    font-size: 20px;
+}
+
+.tryst-text ul{
+    list-style: none;
+    color: #606161;
+    padding-top: 20px;
+
+}
+
+.tryst-text ul li{
+    padding-top: 10px;
+}
+.tryst-text ul li h4{
+    color: black;
+    font-size: 20px;
+}
+
+.offer-part{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    padding-block: 50px;
+ 
+}
+
+.offer-part h1{
+    text-align: center;
+    color: #4a4a4a;
+    
+}
+
+.offer-part p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.discount-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.discount-box img{
+    width: 600px;
+}
+
+.destination{
+    width: 100%;
+    height: auto;
+    padding-block: 40px;
+
+}
+
+.destination h1{
+text-align: center;
+color: #4a4a4a;
+}
+
+
+
+.destination p{
+    font-size: 16px;
+    text-align: center;
+    color: #9b9b9b;
+    padding-top: 10px;
+}
+
+.city-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 40px;
+}
+
+.mumbai{
+    width: 320px;
+    height: 300px;
+    background-image: url("./assets/Mumbai.jpg");
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hyderabad{
+    width: 320px;
+    height: 300px;
+    background-image: url("./assets/hyderabad.jpg");
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goa{
+    width: 320px;
+    height: 300px;
+    background-image: url("./assets/goa.jpg");
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 40px;
+    background-color: #f1f1f1;
+}
+
+.summer{
+    color: #4a4a4a;
+    font-size: 12px;
+    padding-top: 10px;
+    
+}
+
+.summer img{
+    width: 400px;
+    padding-top: 10px;
+
+}
+
+.summer a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.summer p{
+    font-size: 15px;
+    padding-block: 10px;
+
+}
+
+.weekend{
+    color: #4a4a4a;
+    font-size: 12px;
+    
+}
+
+.weekend img{
+    width: 400px;
+    padding-top: 10px;
+
+}
+
+.weekend a{
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+
+
+}
+
+.weekend p{
+    font-size: 15px;
+    padding-block: 10px;
+}
+
+.trips{
+    color: #4a4a4a;
+    font-size: 12px;
+
+    
+}
+
+.trips img{
+    width: 400px;
+    padding-top: 10px;
+
+}
+
+.trips a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.trips p{
+    font-size: 15px;
+    padding-block: 10px;
+
+}
+
+.find{
+    width: 100%;
+    height: auto;
+    padding-block: 30px;
+}
+
+.find h4{
+ font-size: 30px;
+ padding-left: 50px;
+}
+
+.find-line{
+    width: 100%;
+    height: auto;
+   
+}
+
+.find-line ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: rgb(174, 174, 174);
+    padding-block: 20px;
+
+}
+
+.find hr{
+    width: 80%;
+}
+
+.hotels{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(174, 174, 174);
+    padding: 30px;
+
+}
+
+.hotels ul{
+    list-style: none;
+
+
+}
+
+.hotels ul li{
+    font-size: 12px;
+    padding: 10px;
+
+}
+
+.footer-section{
+    height: auto;
+    width: 100%;
+    background-color: #dedede;
+    padding-block: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+justify-content: space-between;
+
+
+}
+
+.footer ul{
+    list-style: none;
+    padding: 50px;
+}
+
+.footer ul li{
+    padding: 10px;
+    
+
+}
+
+.footer ul li h4{
+    color: #4a4a4a;
+    font-size: 20px;
+}
+
+.footer-content p{
+    padding-top: 20px;
+    font-size: 12px;
+    
+}
+
+.footer-content img{
+    padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .head-part{
+        width: 100%;
+        height: auto;
+    }
+
+    .support ul:nth-child(2){
+        display: none;
+    }
+
+    .text-part h4{
+        font-size: 20px;
+    }
+    
+    .text-part h2{
+        font-size: 20px;
+    }
+
+    .line-box{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .line-box input{
+        width: 100px;
+        height: 40px;}
+
+    #date{
+        width: 230px;
+        height: 40px;
+    }
+
+    #Space{
+        width: 180px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    #search-btn{
+        width: 200px;
+        height: 40px;
+    }
+
+    .city-bar{
+        width: 100%;
+        height: 60px;  
+    }
+
+    .city-bar ul{
+        display: flex;
+        flex-wrap: wrap;
+   
+    }
+
+    .video-box{
+        width: 100%;
+        height: auto;
+        padding-block: 20px;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .green-box img{
+        width: 500px;
+        height: auto;
+        padding-left: 10px;
+        padding-block: 20px;
+    }
+
+    .youtube{
+        padding-left: 10px;
+    }
+
+    .content-part h1{
+        font-size: 28px;
+    }
+
+    .content-part p{
+        font-size: 18px;
+        padding-inline: 20px;
+    }
+
+    .three-box{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .offer-part{
+        width: 100%;
+        height: auto;
+    }
+
+    .discount-box img{
+        width: 500px;
+    }
+
+    .discount-box img:nth-child(2){
+     display: none;   
+    }
+
+    .city-img{
+        width: 100%;
+        height: auto;
+        padding-block: 20px;
+        flex-direction: column;
+    }
+
+    .mumbai{
+        width: 320px;
+        height: 280px;
+    }
+
+    .hyderabad{
+        width: 320px;
+        height: 280px;
+    }
+
+    .goa{
+        width: 320px;
+        height: 280px;
+    }
+
+    .gallery{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    }
+
+    .weekend{
+        padding-top: 30px;
+    }
+
+    .trips{
+        padding-top: 30px;
+    }
+
+    .find{
+        width: 100%;
+        height: auto;
+    }
+
+    .find h4{
+        font-size: 25px;
+    }
+
+    .find-line ul{
+        align-items: start;
+        font-size: 12px;
+        padding-left: 10px;
+        justify-content: space-around;
+    }
+
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer ul{
+        justify-content: space-evenly;
+        align-items: start;
+        padding: 0;
+    }
+
+    .footer-content{
+        padding-top: 40px;
+    }
+}
